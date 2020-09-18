@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/first"
+    android:weightSum="4"
+    android:padding="5dp"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_margin="5dp"
+        android:weightSum="3"
+        android:background="@drawable/background_y"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:padding="4dp"
+            android:gravity="right">
+
+            <TextView
+                android:id="@+id/profileEmailTextId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/y"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:gravity="center"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/profilenametext"
+                />
+
+
+
+            <ImageButton
+                android:id="@+id/vehicleInformationButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circle_menu"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="5dp"
+                android:padding="5dp"
+                app:srcCompat="@drawable/ic_baseline_directions_bike_24" />
+
+
+            <ImageButton
+                android:id="@+id/profileSettingButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circle_menu"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="5dp"
+                android:padding="5dp"
+                app:srcCompat="@drawable/ic_baseline_settings_24" />
+
+            <ImageButton
+                android:id="@+id/logoutButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circle_menu"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="5dp"
+                android:padding="5dp"
+                app:srcCompat="@drawable/logout" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/distance"
+                android:layout_width="wrap_content"
+                android:textColor="@color/a"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="0.0 Km/h" />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:textColor="@color/a"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="0" />
+
+        </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:orientation="vertical">
+                
+                <Button
+                    android:id="@+id/btnStart"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:textSize="28dp"
+                    android:textColor="@color/g"
+                    android:textStyle="bold"
+                    android:background="@drawable/background_button"
+                    android:text="Start"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <Button
+                        android:id="@+id/btnPause"
+                        android:layout_width="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="26dp"
+                        android:layout_height="wrap_content"
+                        android:textAllCaps="false"
+                        android:textColor="@color/g"
+                        android:background="@drawable/button_z"
+                        android:text="Pause"/>
+                    <Button
+                        android:id="@+id/btnStop"
+                        android:layout_width="wrap_content"
+                        android:textSize="26dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/g"
+                        android:layout_height="wrap_content"
+                        android:textAllCaps="false"
+                        android:background="@drawable/button_z"
+                        android:text="Stop"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:weightSum="4"
+        android:layout_margin="5dp"
+        android:background="@drawable/background_w"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/checkInternetId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:textAllCaps="false"
+                android:textSize="24dp"
+                android:textColor="@color/d"
+                android:background="@drawable/internet"
+                android:text="Check Internet Connection" />
+
+            <Button
+                android:id="@+id/distanceTwoPlaceId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:textAllCaps="false"
+                android:textSize="24dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/d"
+                android:background="@drawable/internet"
+                android:text="Distance two places" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/staticId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:textAllCaps="false"
+                android:textSize="24dp"
+                android:textColor="@color/d"
+                android:background="@drawable/logical"
+                android:text="Statics" />
+            <Button
+                android:id="@+id/mapId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textAllCaps="false"
+                android:textSize="24dp"
+                android:textColor="@color/d"
+                android:background="@drawable/logical"
+                android:text="Get Location" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/vehicleId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:textAllCaps="false"
+                android:textSize="24dp"
+                android:textColor="@color/d"
+                android:background="@drawable/logical"
+               android:text="Vehicleinfo" />
+            <Button
+                android:id="@+id/locationId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textAllCaps="false"
+                android:textSize="24dp"
+                android:textColor="@color/d"
+                android:background="@drawable/logical"
+                android:text="Save Location"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/gasStationId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:textAllCaps="false"
+                android:textSize="24dp"
+                android:textColor="@color/d"
+                android:background="@drawable/logical"
+                android:text="Nearby Place" />
+            <Button
+                android:id="@+id/trackId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textAllCaps="false"
+                android:textSize="24dp"
+                android:textColor="@color/d"
+                android:background="@drawable/logical"
+                 android:text="Track On" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

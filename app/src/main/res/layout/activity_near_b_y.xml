@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/second"
+    android:padding="10dp"
+    tools:context=".NearBY">
+
+    <Button
+        android:id="@+id/fuelButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_button"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="28dp"
+        android:layout_margin="4dp"
+        android:textColor="@color/a"
+        android:text="Fuel Station" />
+
+    <Button
+        android:id="@+id/gasStationButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gas Station"
+        android:layout_margin="4dp"
+        android:background="@drawable/background_button"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="28dp"
+        android:textColor="@color/a"/>
+
+    <Button
+        android:id="@+id/hospitalButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_button"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="28dp"
+        android:layout_margin="4dp"
+        android:textColor="@color/a"
+        android:text="Hospital" />
+
+    <Button
+        android:id="@+id/schoolButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="School"
+        android:layout_margin="4dp"
+        android:background="@drawable/background_button"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="28dp"
+        android:textColor="@color/a"/>
+
+    <Button
+        android:id="@+id/collegeButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="College"
+        android:layout_margin="4dp"
+        android:background="@drawable/background_button"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="28dp"
+        android:textColor="@color/a"/>
+
+    <Button
+        android:id="@+id/universityButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="University"
+        android:layout_margin="4dp"
+        android:background="@drawable/background_button"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="28dp"
+        android:textColor="@color/a"/>
+
+    <Button
+        android:id="@+id/restaurantsButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Restaurant"
+        android:layout_margin="4dp"
+        android:background="@drawable/background_button"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="28dp"
+        android:textColor="@color/a"/>
+
+    <Button
+        android:id="@+id/malButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shopping Mall"
+        android:layout_margin="4dp"
+        android:background="@drawable/background_button"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="28dp"
+        android:textColor="@color/a"/>
+
+    <Button
+        android:id="@+id/busStationButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bus Station"
+        android:layout_margin="4dp"
+        android:background="@drawable/background_button"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="28dp"
+        android:textColor="@color/a"/>
+
+    <Button
+        android:id="@+id/policeStationButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Police Station"
+        android:layout_margin="4dp"
+        android:background="@drawable/background_button"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="28dp"
+        android:textColor="@color/a"
+        />
+
+
+</LinearLayout>

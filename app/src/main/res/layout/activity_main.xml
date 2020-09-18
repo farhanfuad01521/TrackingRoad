@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_x"
+    android:weightSum="4"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_baseline_person_24" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/a"
+            android:text="Welcome back" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/a"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:text="PLease Login to your account." />
+
+    </LinearLayout>
+
+    //User input and password
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:weightSum="2"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/userETextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/a"
+            android:inputType="textEmailAddress"
+            android:hint="Enter your Email"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            />
+
+        <EditText
+            android:id="@+id/passwordTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/a"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            android:hint="Enter your Password"/>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBarX"
+            android:layout_gravity="center"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    //button(login,cancel,forget Password
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/clearButtonId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/a"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:textSize="30dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/button_z"
+                android:text="Clear" />
+            <Button
+                android:id="@+id/loginButtonId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/a"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:textSize="30dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/button_z"
+                android:text="Login" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/forgetPasswordId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/a"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:textSize="30dp"
+                android:background="@drawable/background_button"
+                android:text="Forget Password?" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    //praivecy term and condition
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewD"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/a"
+            android:text="or" />
+        <Button
+            android:id="@+id/signUpId"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/a"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textSize="30dp"
+            android:background="@drawable/background_button"
+            android:text="Sign Up" />
+
+        <TextView
+            android:id="@+id/textViewJ"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="@color/a"
+            android:text="By signing up, you agree to RoadTracking's\nTerms and conditions or Privacy Policy" />
+    </LinearLayout>
+
+</LinearLayout>

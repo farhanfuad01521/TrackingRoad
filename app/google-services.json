@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "102828940671",
+    "firebase_url": "https://trackingroad-9cb25.firebaseio.com",
+    "project_id": "trackingroad-9cb25",
+    "storage_bucket": "trackingroad-9cb25.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102828940671:android:8cfdffaa6748f946bf4e4a",
+        "android_client_info": {
+          "package_name": "com.example.trackingroad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "102828940671-8qdccrcj9u846iapkmg4hou10mo8o0so.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvNrnGpAqydwWhpbNGQeBNkOQgFGVnMVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "102828940671-8qdccrcj9u846iapkmg4hou10mo8o0so.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
